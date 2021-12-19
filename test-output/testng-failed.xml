@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [blazedemo automation test suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.demo.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="blazedemo Test Cases(failed)">
+    <classes>
+      <class name="com.demo.qa.testcases.HomePageTest">
+        <methods>
+          <include name="registerationTest" invocation-numbers="0 1 3"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.demo.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- blazedemo Test Cases(failed) -->
+</suite> <!-- Failed suite [blazedemo automation test suite] -->

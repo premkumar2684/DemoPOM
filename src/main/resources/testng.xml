@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="blazedemo automation test suite">
+	<listeners>
+		<listener
+			class-name="com.demo.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	<test name="blazedemo Test Cases">
+		<classes>
+			<class name="com.demo.qa.testcases.HomePageTest"></class>
+			<class name="com.demo.qa.testcases.FlightBookingTest"></class>
+		</classes>
+	</test>
+</suite>
